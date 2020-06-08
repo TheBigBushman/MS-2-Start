@@ -1,0 +1,88 @@
+body{
+    color: RGBA(183,122,68,1);
+    font-family: 'Roboto', sans-serif;
+}
+
+li.nav-item {
+    align-content: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 25px;
+    margin: 0 auto;
+}
+a.nav-link:hover{
+    background-color: #0566ce;
+    text-decoration: underline;
+    color: white;
+}
+
+#hero-image{
+    background-image: url("../img/beach.jpg");
+    height: 800px;
+    margin-bottom: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sunset-class{
+    background-image: url("../img/beach2.jpg");
+    height: 800px;
+    margin-bottom: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hotel-image{
+    background-image: url("../img/hotel.jpg");
+    width:300px;
+    height: 300px;
+    border-radius: 50%;
+    border: orange dotted 1px;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+    background-position: bottom center;
+}
+
+.flight-image{
+    background-image: url("../img/flight.jpg");
+    width:300px;
+    height: 300px;
+    border-radius: 50%;
+    border: orange dotted 1px;
+    text-align: center;
+    margin: 0 auto;
+    background-position: center center;
+    overflow: hidden;
+    background-repeat: no-repeat;   
+}
+
+#parallax-midpoint{
+    background-image:url("../img/beach2.jpg");
+    height: 500px;
+    margin-bottom: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ } 
+        .change { 
+            cursor: pointer; 
+            border: 1px solid #555; 
+            border-radius: 40%; 
+            width: 20px; 
+            text-align: center; 
+            padding: 5px; 
+            margin-left: 8px; 
+        } 
+        .sunset-class{ 
+            background-image: url("../img/beach2.jpg"); 
+            color: #e6e6e6; 
+        } 
