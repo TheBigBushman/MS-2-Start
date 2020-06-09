@@ -81,6 +81,7 @@ a.nav-link:hover{
      border: solid orange 2px;
      height: 250px;
      margin-bottom:10px;
+     border-radius: 10px;
  }
 
  .col-cities{
@@ -102,6 +103,14 @@ a.nav-link:hover{
 #dublin-tile{
     background-image: url("../img/dublin.jpg");
     background-position: bottom center;
+    opacity: 0.6;
+    transition: transform .5s;
+}
+#dublin-tile:hover{
+    opacity: 1;
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.05);
 }
 
 #belfast-tile{
