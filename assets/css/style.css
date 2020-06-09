@@ -70,19 +70,67 @@ a.nav-link:hover{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+ } 
+
+ h2{
+     text-align: center;
+     color: white;
+ }
+
+ .gallery-cities{
+     border: solid orange 2px;
+     height: 250px;
+     margin-bottom:10px;
+ }
+
+ .col-cities{
+     border: solid blue 2px;
+ }
+.gallery-container{
+    padding: 10px;
 }
 
- } 
-        .change { 
-            cursor: pointer; 
-            border: 1px solid #555; 
-            border-radius: 40%; 
-            width: 20px; 
-            text-align: center; 
-            padding: 5px; 
-            margin-left: 8px; 
-        } 
-        .sunset-class{ 
-            background-image: url("../img/beach2.jpg"); 
-            color: #e6e6e6; 
-        } 
+
+
+/*--------------------------------------------------------------------------------------------------------------------CITY TILES--*/
+
+.city-break-h3{
+    text-align: center;
+    color: orange;
+}
+
+#dublin-tile{
+    background-image: url("../img/dublin.jpg");
+    background-position: bottom center;
+}
+
+#belfast-tile{
+    background-image: url("../img/belfast.jpg");
+    background-position: center;
+}
+
+#edinburgh-tile{
+    background-image: url("../img/edinburgh.jpg");
+    background-position:  center center;
+}
+
+#london-tile{
+    background-image: url("../img/london.jpg");
+    background-position:  center bottom;
+}
+
+.city-name{
+    text-align: center;
+    color: orange;
+    font-weight: 500;
+    padding-top: 200px;
+}
+
+
+
+ 
+
+
+       
+
+        
