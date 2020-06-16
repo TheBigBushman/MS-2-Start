@@ -1,11 +1,10 @@
 $( document ).ready(function() {
-    console.log( "ready! 123" );
+    console.log( "ready! 1234" );
 });
 
-$(h1).onClick(function(){
-(this).CSS(color , "red");
-})
- 
- 
-
-        
+$(".flightandhotel").mouseenter(function(){
+    $("p").css("background-color", "blue");
+});
+$(".flightandhotel").mouseleave(function(){
+    $("p").css("background-color", "white");
+});

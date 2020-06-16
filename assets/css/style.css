@@ -121,14 +121,6 @@ footer > h3, h4, h5, ul, li, div, a{
 #dublin-tile{
     background-image: url("../img/dublin.jpg");
     background-position: bottom center;
-    opacity: 0.6;
-    transition: transform .5s;
-}
-#dublin-tile:hover{
-    opacity: 1;
-    -ms-transform: scale(1.5);
-    -webkit-transform: scale(1.5);
-    transform: scale(1.05);
 }
 
 #belfast-tile{
